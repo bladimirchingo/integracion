@@ -1,0 +1,27 @@
+<div class="fondo" fxLayout="column">
+    <div class="separacion"></div>
+    <div class="mT" fxLayout="column" fxLayoutAlign="center center" fxFlex="100">
+        <div class="linea1"></div>
+        <div class="titulo" fxLayoutAlign=" center">
+            UNIB.E Noticia
+        </div>
+        <p class="fecha">{{fecha | date:'EEEE,d MMMM, y'}}</p>
+        <div class="linea1"></div>
+    </div>
+    <div class="mT tmenu" fxLayout="column" fxLayoutAlign="center center" fxFlex="100">
+        <div class="separacion"></div>
+        <div class="linea1"></div>
+        <div fxLayoutAlign="space-evenly center" class="fondom margen">
+            <div class="separacion"></div>
+            <button mat-button class="menu blanco" routerLink="/vista"> Noticias</button>
+            <button mat-button class="menu blanco"> Deportes</button>
+            <button mat-button class="menu blanco"> Entrevistas</button>
+            <button mat-button class="menu blanco"> Actualidades</button>
+            <button mat-button class="menu blanco"> Reportajes</button>
+            <button mat-button class="menu blanco"> Finanzas</button>
+        </div>
+        <div class="linea1"></div>
+        <div class="separacion"></div>
+    </div>
+</div>
+<router-outlet></router-outlet>

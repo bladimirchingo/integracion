@@ -1,0 +1,67 @@
+.articulo {
+    display: flex;
+    background-color: pink;
+    flex-direction: column;
+}
+
+.membrete {
+    flex-basis: 30%;
+    display: flex;
+    background-color: red;
+}
+
+.escrito {
+    flex-basis: 70%;
+    display: flex;
+    background-color: aqua;
+}
+
+.titulos {
+    flex-basis: 70%;
+    height: 100%;
+    display: flex;
+    background-color: beige;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.siguiente {
+    flex-basis: 30%;
+    height: 100%;
+    display: flex;
+    background-color: brown;
+    flex-direction: column;
+}
+
+.imgdest {
+    flex-basis: 60%;
+    background-color: blue;
+    display: flex;
+}
+
+.descripcion {
+    flex-basis: 40%;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+
+.numeracion {
+    flex-basis: 10%;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
+
+.picture {
+    flex-basis: 90%;
+    background-color: yellow;
+    display: flex;
+    position: relative;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
